@@ -1,7 +1,8 @@
 # Write Python code to find the maximum sum of any k consecutive elements
 
 arr = list(map(int, input("enter elements with spaces ").split()))
-k = 3 #can be user defined
+# k = 3 
+k = int(input("Enter window size: ")) # user defined
 
 left=0
 right=left+k-1
